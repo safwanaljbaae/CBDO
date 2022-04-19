@@ -86,7 +86,7 @@
   
 span.colorMenuActive, #tabsH a span.colorMenuActive 
 { 	
-  color:  #EE2C2C; 
+  color:  #616161; 
 }
 
 span.colorMenu, #tabsH a span.colorMenu 
@@ -113,7 +113,7 @@ span.colorMenu, #tabsH a span.colorMenu
 #tabsH ul 
 {
   margin:0;
-  padding:10px 10px 0px 60px;
+  padding:0px 0px 0px 0px;
   list-style:none;
   }
   
@@ -179,7 +179,7 @@ a:hover span
   padding: 20px 50px 10px 60px;
   /*padding: 0px 60px 10px 80px;*/
   /*padding: 0px 140px 10px 140px;*/
-  border: 1px solid #000023;  
+  border: 1px solid #ffffff;  
   /*border-bottom*/: 0px solid transparent;
 
 
@@ -266,7 +266,6 @@ body
   /*background: AliceBlue;*/
   /*background: url(stripes.png);*/
   /*background: url(blue-violet-stars.jpg);*/
-  
   font-size: 12px;
   line-height: 20px;
   font-family: Verdana, Geneva, Arial, sans-serif;
@@ -445,53 +444,37 @@ body
   }
 */
 
-#banner1Earth0
+#bannerbottom
 {
-  position:absolute; 
-/*  width: 320px;*/
-  width: 500px;
-  height: 323px;
-  top: auto;
-  right: auto;
+  position:fixed; 
+  width: 1050px;
+  height: 143px;
 
-  bottom: 20px;
-  left:250px;
+  bottom: 0px;
+  left:450px;
 
-/*
-  bottom: 20px;
-  left:150px;
-
-  bottom: -40px;
-  left:-240px;
-     */
 
   background-color: transparent;
-  background-image: url(../images/earth_esa.png);
+  background-image: url(./cbdofig_bottom.PNG);
 /*  background-image: url(../images/earth.gif);*/
   }
 
-/*#bannerESA
+  #bannerupper
 {
-  position:absolute; 
-  width: 180px;
-  height: 65px;
-  top: auto;
-  right: auto;
+  position:fixed; 
+  width: 800px;
+  height: 243px;
 
-  bottom: 30px;
-  left:450px;
+  bottom: 700px;
+  left:1120px;
 
-/*
-  bottom: 20px;
-  left:150px;
-
-  bottom: -40px;
-  left:-240px;
-     ''''''
 
   background-color: transparent;
-  background-image: url(../images/esa_colour_transp_b_sm.tif);
-  }*/
+  background-image: url(./cbdofig_upper.PNG);
+/*  background-image: url(../images/earth.gif);*/
+  }
+
+
 
 #banner1ImageAstDyS
 {
@@ -1117,7 +1100,7 @@ a.itButton:hover
 
 
 .colorSystemLink, a.colorSystemLink
-{color: #09C;} /* hover {color: #EA3;} */
+{color: rgb(0, 0, 0);} /* hover {color: #EA3;} */
 
 
 .colorInternalLink 
