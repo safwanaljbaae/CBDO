@@ -450,8 +450,8 @@ body
   width: 1050px;
   height: 143px;
 
-  bottom: 0px;
-  left:450px;
+  bottom: 0%;
+  left:25%;
 
 
   background-color: transparent;
@@ -462,11 +462,11 @@ body
   #bannerupper
 {
   position:fixed; 
-  width: 800px;
-  height: 243px;
+  width: 400px;
+  height: 143px;
 
-  bottom: 700px;
-  left:1120px;
+  right:0%;
+  top:0%;
 
 
   background-color: transparent;
