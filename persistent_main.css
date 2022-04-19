@@ -470,8 +470,8 @@ body
 
 
   background-color: transparent;
-  background-image: url(./cbdofig_upper.PNG);
-  background-size: 100%;
+  /*background-image: url(./cbdofig_upper.PNG);*/
+ /* background-size: 100%;*/
 /*  background-image: url(../images/earth.gif);*/
   }
 
